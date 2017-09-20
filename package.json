@@ -3,14 +3,13 @@
   "description": "JavaScript implementation of the Web Animations API",
   "repository": {
     "type": "git",
-    "url": "https://github.com/web-animations/web-animations-js.git"
+    "url": "https://github.com/pedrolauro/web-animations-js.git"
   },
-  "version": "2.3.1",
+  "version": "2.3.2",
   "keywords": [
     "animations",
     "polyfill"
   ],
-  "homepage": "https://github.com/web-animations",
   "license": "Apache-2.0",
   "main": "web-animations.min.js",
   "files": [
@@ -19,6 +18,7 @@
     "*.min.js.map"
   ],
   "devDependencies": {
+    "minimatch": "^3.0.4",
     "mocha": "1.21.4",
     "chai": "^1.9.1",
     "grunt": "~0.4.5",
@@ -36,7 +36,6 @@
     "karma-sauce-launcher": "~0.2.3",
     "grunt-checkrepo": "~0.1.0",
     "grunt-saucelabs": "~4.0.2",
-    "grunt-checkrepo": "~0.1.0",
     "grunt-git-status": "~1.0.0",
     "grunt-template": "~0.2.3",
     "source-map": "~0.1.40"
