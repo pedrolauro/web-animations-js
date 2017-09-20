@@ -3,14 +3,13 @@
   "description": "JavaScript implementation of the Web Animations API",
   "repository": {
     "type": "git",
-    "url": "https://github.com/web-animations/web-animations-js.git"
+    "url": "https://github.com/pedrolauro/web-animations-js.git"
   },
-  "version": "2.3.1",
+  "version": "2.3.2",
   "keywords": [
     "animations",
     "polyfill"
   ],
-  "homepage": "https://github.com/web-animations",
   "license": "Apache-2.0",
   "main": "web-animations.min.js",
   "files": [
